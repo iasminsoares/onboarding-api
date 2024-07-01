@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IntegraApi.Application</name>
+    </assembly>
+    <members>
+        <member name="M:TotvsIntegra.Application.Controllers.AtividadesController.ListAsync">
+            <summary>
+            Lists all Atividade.
+            </summary>
+            <returns>List of Atividades.</returns>
+        </member>
+        <member name="M:TotvsIntegra.Application.Controllers.AtividadesController.PostAsync(IntegraApi.Application.Dtos.AtividadeDto)">
+            <summary>
+            Adiciona uma atividade ao banco de dados
+            </summary>
+            <param name="atividadeDto">Obj com os campos necessários para a criação da atividade.</param>
+            <returns>IActionResult</returns>
+            <response code="201"> Caso a inserção seja feita com sucesso.</response>
+        </member>
+        <member name="M:TotvsIntegra.Application.Controllers.AtividadesController.PutAsync(System.Guid,IntegraApi.Application.Dtos.AtividadeDto)">
+            <summary>
+            Updates an existing Atividade according to an identifier.
+            </summary>
+            <param name="id">Atividade identifier.</param>
+            <param name="resource">Updated Atividade data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:TotvsIntegra.Application.Controllers.AtividadesController.DeleteAsync(System.Guid)">
+            <summary>
+            Deletes a given Atividade according to an identifier.
+            </summary>
+            <param name="id">Atividade identifier.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:TotvsIntegra.Application.Controllers.OnboardingController.ListAsync">
+            <summary>
+            Lists all Onboarding.
+            </summary>
+            <returns>List of Onboardings.</returns>
+        </member>
+        <member name="M:TotvsIntegra.Application.Controllers.OnboardingController.PostAsync(IntegraApi.Application.Dtos.OnboardingDto)">
+            <summary>
+            Saves a new Onboarding.
+            </summary>
+            <param name="resource">Onboarding data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:TotvsIntegra.Application.Controllers.OnboardingController.PutAsync(System.Guid,IntegraApi.Application.Dtos.OnboardingDto)">
+            <summary>
+            Updates an existing Onboarding according to an identifier.
+            </summary>
+            <param name="id">Onboarding identifier.</param>
+            <param name="resource">Updated Onboarding data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:TotvsIntegra.Application.Controllers.OnboardingController.DeleteAsync(System.Guid)">
+            <summary>
+            Deletes a given Onboarding according to an identifier.
+            </summary>
+            <param name="id">Onboarding identifier.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:IntegraApi.Application.Controllers.AtividadesOnboardingsController.ListAsync">
+            <summary>
+            Lists all AtividadeOnboarding.
+            </summary>
+            <returns>List of AtividadeOnboardings.</returns>
+        </member>
+        <member name="M:IntegraApi.Application.Controllers.AtividadesOnboardingsController.PostAsync(IntegraApi.Application.Dtos.AtividadeOnboardingDto)">
+            <summary>
+            Saves a new AtividadeOnboarding.
+            </summary>
+            <param name="resource">AtividadeOnboarding data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:IntegraApi.Application.Controllers.AtividadesOnboardingsController.PutAsync(System.Guid,IntegraApi.Application.Dtos.AtividadeOnboardingDto)">
+            <summary>
+            Updates an existing AtividadeOnboarding according to an identifier.
+            </summary>
+            <param name="id">AtividadeOnboarding identifier.</param>
+            <param name="resource">Updated AtividadeOnboarding data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:IntegraApi.Application.Controllers.AtividadesOnboardingsController.DeleteAsync(System.Guid)">
+            <summary>
+            Deletes a given AtividadeOnboarding according to an identifier.
+            </summary>
+            <param name="id">AtividadeOnboarding identifier.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:IntegraApi.Application.Controllers.TotversController.ListAsync">
+            <summary>
+            Lists all Totver.
+            </summary>
+            <returns>List of Totvers.</returns>
+        </member>
+        <member name="M:IntegraApi.Application.Controllers.TotversController.PostAsync(IntegraApi.Application.Dtos.TotverDto)">
+            <summary>
+            Saves a new Totver.
+            </summary>
+            <param name="resource">Totver data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:IntegraApi.Application.Controllers.TotversController.PutAsync(System.Guid,IntegraApi.Application.Dtos.TotverDto)">
+            <summary>
+            Updates an existing Totver according to an identifier.
+            </summary>
+            <param name="id">Totver identifier.</param>
+            <param name="resource">Updated Totver data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:IntegraApi.Application.Controllers.TotversController.DeleteAsync(System.Guid)">
+            <summary>
+            Deletes a given Totver according to an identifier.
+            </summary>
+            <param name="id">Totver identifier.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="T:IntegraApi.Application.Migrations.TabelasIniciais">
+            <inheritdoc />
+        </member>
+        <member name="M:IntegraApi.Application.Migrations.TabelasIniciais.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:IntegraApi.Application.Migrations.TabelasIniciais.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:IntegraApi.Application.Migrations.TabelasIniciais.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

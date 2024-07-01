@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TotvsIntegra.Application.props" />
+</Project>
