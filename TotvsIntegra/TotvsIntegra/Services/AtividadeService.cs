@@ -86,5 +86,25 @@ namespace IntegraApi.Application.Services
                 return new Response<Atividade>(ErrorType.Error, "Um erro ocorreu tentando excluir o registro.", ex.Message);
             }
         }
+
+        public async Task<Response<Atividade>> GetByIdAsync(Guid id)
+        {
+            var existingAtividade = await repository.GetByIdAsync(id);
+            if (existingAtividade == null)
+            {
+                return new Response<Atividade>(ErrorType.Error, "Registro não encontrado.");
+            }
+            
+            try
+            {
+                await unitOfWork.CompleteAsync();
+                return new Response<Atividade>(existingAtividade);
+            }
+            catch (Exception ex)
+            {
+                logger.LogError("{message}", $"Não foi possivel encontrar o registro com o ID {id}. Erro: {ex.Message}");
+                return new Response<Atividade>(ErrorType.Error, "Um erro ocorreu tentando encontrar o registro.", ex.Message);
+            }
+        }
     }
 }

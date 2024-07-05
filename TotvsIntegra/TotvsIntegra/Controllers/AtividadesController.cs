@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Castle.Core.Resource;
 using IntegraApi.Application.Controllers;
 using IntegraApi.Application.Domain.Models;
 using IntegraApi.Application.Domain.Services;
@@ -34,6 +35,24 @@ namespace TotvsIntegra.Application.Controllers
             var result = await AtividadeService.ListAsync();
             return mapper.Map<IEnumerable<AtividadeDto>>(result);
         }
+
+        [HttpGet("{id}")]
+        [ProducesResponseType(typeof(AtividadeDto), 200)]
+        [ProducesResponseType(typeof(ErrorMessage), 400)]
+        public async Task<IActionResult> RetornaAtividadePorId(Guid id)
+        {
+            var result = await AtividadeService.GetByIdAsync(id);
+
+            if (result._message != null)
+            {
+                result._message.code = HttpStatusCode.BadRequest.ToString();
+                return BadRequest(result._message);
+            }
+
+            var data = mapper.Map<AtividadeDto>(result.Data!);
+            return Ok(data);
+        }
+
 
         /// <summary>
         /// Adiciona uma atividade ao banco de dados
@@ -117,16 +136,7 @@ namespace TotvsIntegra.Application.Controllers
         //}
 
 
-        //[HttpGet("{id}")]
-        //public IActionResult RetornaAtividadePorId(int id)
-        //{
-        //    var atividade = _context.Atividades.FirstOrDefault(atividade => atividade.CodAtividade == id);
-        //    if (atividade == null) return NotFound();
-
-        //    var atvDto = _mapper.Map<ReadAtividadeDto>(atividade);
-        //    return Ok(atvDto);
-        //}
-
+       
         //[HttpPut("{id}")] // Atualizada o objeto todo
         //public IActionResult AtualizaAtividadePorId(int id, [FromBody] UpdateAtividadeDto atividadeDto)
         //{

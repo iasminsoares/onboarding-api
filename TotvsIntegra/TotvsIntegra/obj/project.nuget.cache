@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kh9INQOXvoE=",
+  "dgSpecHash": "64adoSCmBgM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\iasmi\\Documents\\Projects\\totvs-onboarding-api\\TotvsIntegra\\TotvsIntegra\\IntegraApi.Application.csproj",
+  "projectFilePath": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\IntegraApi.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\iasmi\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\iasmi\\.nuget\\packages\\azure.core\\1.40.0\\azure.core.1.40.0.nupkg.sha512",

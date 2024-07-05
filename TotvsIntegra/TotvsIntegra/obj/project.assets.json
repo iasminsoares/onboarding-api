@@ -5228,11 +5228,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\iasmi\\Documents\\Projects\\totvs-onboarding-api\\TotvsIntegra\\TotvsIntegra\\IntegraApi.Application.csproj",
+      "projectUniqueName": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\IntegraApi.Application.csproj",
       "projectName": "IntegraApi.Application",
-      "projectPath": "C:\\Users\\iasmi\\Documents\\Projects\\totvs-onboarding-api\\TotvsIntegra\\TotvsIntegra\\IntegraApi.Application.csproj",
+      "projectPath": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\IntegraApi.Application.csproj",
       "packagesPath": "C:\\Users\\iasmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\iasmi\\Documents\\Projects\\totvs-onboarding-api\\TotvsIntegra\\TotvsIntegra\\obj\\",
+      "outputPath": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

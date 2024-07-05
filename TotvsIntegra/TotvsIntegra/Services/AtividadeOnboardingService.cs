@@ -85,5 +85,9 @@ namespace IntegraApi.Application.Services
             }
         }
 
+        public Task<Response<AtividadeOnboarding>> GetByIdAsync(Guid id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

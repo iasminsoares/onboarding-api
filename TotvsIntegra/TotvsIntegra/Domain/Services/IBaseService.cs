@@ -7,6 +7,7 @@ namespace IntegraApi.Application.Domain.Services
         Task<IEnumerable<T>> ListAsync();
         Task<Response<T>> SaveAsync(T entity);
         Task<Response<T>> UpdateAsync(Guid id, T entity);
+        Task<Response<T>> GetByIdAsync(Guid id);
         Task<Response<T>> DeleteAsync(Guid id);
     }
 }

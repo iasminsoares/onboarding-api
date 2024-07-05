@@ -84,5 +84,10 @@ namespace IntegraApi.Application.Services
                 return new Response<Onboarding>(ErrorType.Error, "Um erro ocorreu tentando excluir o registro.", ex.Message);
             }
         }
+
+        public Task<Response<Onboarding>> GetByIdAsync(Guid id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

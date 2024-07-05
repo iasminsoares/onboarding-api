@@ -84,5 +84,10 @@ namespace IntegraApi.Application.Services
                 return new Response<Totver>(ErrorType.Error, "Um erro ocorreu tentando excluir o registro.", ex.Message);
             }
         }
+
+        public Task<Response<Totver>> GetByIdAsync(Guid id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
