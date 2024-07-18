@@ -51,10 +51,12 @@ namespace IntegraApi.Application.Services
                 return new Response<Atividade>(ErrorType.Error, "Registro não encontrado.");
             }
 
-            existingAtividade = atividade;
+            AtualizaPropriedadeAtividade(existingAtividade, atividade);
 
             try
             {
+
+                repository.Update(existingAtividade);
                 await unitOfWork.CompleteAsync();
                 return new Response<Atividade>(existingAtividade);
             }
@@ -105,6 +107,23 @@ namespace IntegraApi.Application.Services
                 logger.LogError("{message}", $"Não foi possivel encontrar o registro com o ID {id}. Erro: {ex.Message}");
                 return new Response<Atividade>(ErrorType.Error, "Um erro ocorreu tentando encontrar o registro.", ex.Message);
             }
+        }
+
+        private void AtualizaPropriedadeAtividade(Atividade existingAtividade, Atividade atividadeModificada)
+        {
+            existingAtividade.Descricao = atividadeModificada.Descricao;
+            existingAtividade.Classificacao = atividadeModificada.Classificacao;
+            existingAtividade.ComoFazer = atividadeModificada.ComoFazer;
+            existingAtividade.TempoEstimado = atividadeModificada.TempoEstimado;
+            existingAtividade.Ativo = atividadeModificada.Ativo;
+            existingAtividade.Obrigatorio = atividadeModificada.Obrigatorio;
+            existingAtividade.CriadoPor = atividadeModificada.CriadoPor;
+            existingAtividade.AlteradoPor = atividadeModificada.AlteradoPor;
+            existingAtividade.DataCriacao = atividadeModificada.DataCriacao;
+            existingAtividade.CriadoPor = "Iasmin";
+            existingAtividade.AlteradoPor = "Iasmin";
+            existingAtividade.DataCriacao = DateTime.Now;
+
         }
     }
 }

@@ -129,5 +129,29 @@
         <member name="M:IntegraApi.Application.Migrations.TabelasIniciais.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:IntegraApi.Application.Migrations.CorrigindoNomeColunaObrigatorio">
+            <inheritdoc />
+        </member>
+        <member name="M:IntegraApi.Application.Migrations.CorrigindoNomeColunaObrigatorio.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:IntegraApi.Application.Migrations.CorrigindoNomeColunaObrigatorio.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:IntegraApi.Application.Migrations.CorrigindoNomeColunaObrigatorio.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:IntegraApi.Application.Migrations.CorrigindoTipoColunaClassificacao">
+            <inheritdoc />
+        </member>
+        <member name="M:IntegraApi.Application.Migrations.CorrigindoTipoColunaClassificacao.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:IntegraApi.Application.Migrations.CorrigindoTipoColunaClassificacao.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:IntegraApi.Application.Migrations.CorrigindoTipoColunaClassificacao.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

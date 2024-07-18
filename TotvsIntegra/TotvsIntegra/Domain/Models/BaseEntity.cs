@@ -5,7 +5,7 @@ namespace IntegraApi.Application.Domain.Models
     public class BaseEntity
     {
         [Key]
-        public Guid Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
         public DateTime DataCriacao { get; set; }
         public  string CriadoPor { get; set; }
         public DateTime? UltimaAlteracao { get; set; }

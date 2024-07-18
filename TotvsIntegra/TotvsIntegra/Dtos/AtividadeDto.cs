@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using IntegraApi.Application.Domain.Enums;
+using System.ComponentModel.DataAnnotations;
 
 namespace IntegraApi.Application.Dtos
 {
@@ -23,8 +24,6 @@ namespace IntegraApi.Application.Dtos
         public int? TempoEstimado { get; set; }
 
         [Required(ErrorMessage = "A classificação da atividade é Obrigatório")]
-        [MinLength(3, ErrorMessage = "Tamanho mínimo do texto exigido 3 caracteres")]
-        [MaxLength(255, ErrorMessage = "Tamanho máximo do e-mail são 255 caracteres")]
-        public string? Classificacao { get; set; }
+        public ClassificacaoAtividadeEnum Classificacao { get; set; } = ClassificacaoAtividadeEnum.NaoDefinido;
     }
 }
