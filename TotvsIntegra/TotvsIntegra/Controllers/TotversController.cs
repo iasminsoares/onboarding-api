@@ -32,6 +32,14 @@ namespace IntegraApi.Application.Controllers
         [ProducesResponseType(typeof(ErrorMessage), 400)]
         public async Task<IActionResult> PostAsync([FromBody] TotverDto resource)
         {
+
+            resource.CriadoPor = "Iasmin";
+            resource.AlteradoPor = "Iasmin";
+            resource.DataCriacao = DateTime.Now;
+            resource.UltimaAlteracao = DateTime.Now;
+            resource.UsuarioRede = "Iasmin";
+
+
             var entity = mapper.Map<Totver>(resource);
             var result = await TotverService.SaveAsync(entity);
 

@@ -49,10 +49,11 @@ namespace IntegraApi.Application.Services
                 return new Response<Totver>(ErrorType.Error, "Registro não encontrado.");
             }
 
-            existingTotver = totver;
+            AtualizaPropriedadeTotver(existingTotver, totver);
 
             try
             {
+                repository.Update(existingTotver);
                 await unitOfWork.CompleteAsync();
                 return new Response<Totver>(existingTotver);
             }
@@ -88,6 +89,20 @@ namespace IntegraApi.Application.Services
         public Task<Response<Totver>> GetByIdAsync(Guid id)
         {
             throw new NotImplementedException();
+        }
+
+        private void AtualizaPropriedadeTotver(Totver existingTotver, Totver totverModificada)
+        {
+            existingTotver.Nome = totverModificada.Nome;
+            existingTotver.Email = totverModificada.Email;
+            existingTotver.Tribo = totverModificada.Tribo;
+            existingTotver.Time = totverModificada.Time;
+            existingTotver.Ativo = totverModificada.Ativo;
+            existingTotver.UsuarioRede = "Iasmin";
+            existingTotver.CriadoPor = "Iasmin";
+            existingTotver.AlteradoPor = "Iasmin";
+            existingTotver.DataCriacao = DateTime.Now;
+
         }
     }
 }

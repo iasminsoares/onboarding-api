@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntegraApi.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d991eecac7003350828b1250ec53e3b1fabac917")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+774a9e246e2cf92c15193c0827205f68d0dbc8cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("IntegraApi.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IntegraApi.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -153,5 +153,17 @@
         <member name="M:IntegraApi.Application.Migrations.CorrigindoTipoColunaClassificacao.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:IntegraApi.Application.Migrations.Alteraçãotipotimeetriboparaenum">
+            <inheritdoc />
+        </member>
+        <member name="M:IntegraApi.Application.Migrations.Alteraçãotipotimeetriboparaenum.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:IntegraApi.Application.Migrations.Alteraçãotipotimeetriboparaenum.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:IntegraApi.Application.Migrations.Alteraçãotipotimeetriboparaenum.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

@@ -16,6 +16,6 @@ namespace IntegraApi.Application.Domain.Models
         [Required]
         public ClassificacaoAtividadeEnum Classificacao { get; set; }
 
-        public virtual ICollection<AtividadeOnboarding> Oboardings { get; set; }
+        //public virtual ICollection<AtividadeOnboarding> Oboardings { get; set; }
     }
 }
