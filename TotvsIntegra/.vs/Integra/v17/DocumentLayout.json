@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|c:\\users\\iasmi\\documents\\projects\\onboarding-api\\totvsintegra\\totvsintegra\\services\\totverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|solutionrelative:totvsintegra\\services\\totverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|c:\\users\\iasmi\\documents\\projects\\onboarding-api\\totvsintegra\\totvsintegra\\domain\\services\\iatividadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|solutionrelative:totvsintegra\\domain\\services\\iatividadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|c:\\users\\iasmi\\documents\\projects\\onboarding-api\\totvsintegra\\totvsintegra\\controllers\\totverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|solutionrelative:totvsintegra\\controllers\\totverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|c:\\users\\iasmi\\documents\\projects\\onboarding-api\\totvsintegra\\totvsintegra\\services\\totverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|solutionrelative:totvsintegra\\services\\totverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|c:\\users\\iasmi\\documents\\projects\\onboarding-api\\totvsintegra\\totvsintegra\\domain\\services\\itotverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|solutionrelative:totvsintegra\\domain\\services\\itotverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|c:\\users\\iasmi\\documents\\projects\\onboarding-api\\totvsintegra\\totvsintegra\\services\\atividadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|solutionrelative:totvsintegra\\services\\atividadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|c:\\users\\iasmi\\documents\\projects\\onboarding-api\\totvsintegra\\totvsintegra\\domain\\models\\totver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|solutionrelative:totvsintegra\\domain\\models\\totver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|c:\\users\\iasmi\\documents\\projects\\onboarding-api\\totvsintegra\\totvsintegra\\dtos\\totverdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|solutionrelative:totvsintegra\\dtos\\totverdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|c:\\users\\iasmi\\documents\\projects\\onboarding-api\\totvsintegra\\totvsintegra\\persistence\\repositories\\totverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|solutionrelative:totvsintegra\\persistence\\repositories\\totverrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|c:\\users\\iasmi\\documents\\projects\\onboarding-api\\totvsintegra\\totvsintegra\\controllers\\atividadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|solutionrelative:totvsintegra\\controllers\\atividadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|c:\\users\\iasmi\\documents\\projects\\onboarding-api\\totvsintegra\\totvsintegra\\dtos\\onboardingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|solutionrelative:totvsintegra\\dtos\\onboardingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|c:\\users\\iasmi\\documents\\projects\\onboarding-api\\totvsintegra\\totvsintegra\\domain\\models\\onboarding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|solutionrelative:totvsintegra\\domain\\models\\onboarding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|c:\\users\\iasmi\\documents\\projects\\onboarding-api\\totvsintegra\\totvsintegra\\services\\onboardingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|solutionrelative:totvsintegra\\services\\onboardingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|c:\\users\\iasmi\\documents\\projects\\onboarding-api\\totvsintegra\\totvsintegra\\controllers\\onboardingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C27306-ADEA-475D-A6FF-BB7872D7DC33}|TotvsIntegra\\IntegraApi.Application.csproj|solutionrelative:totvsintegra\\controllers\\onboardingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,6 +52,64 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
+        {
+          "DockedWidth": 235,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITotverService.cs",
+              "DocumentMoniker": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Domain\\Services\\ITotverService.cs",
+              "RelativeDocumentMoniker": "TotvsIntegra\\Domain\\Services\\ITotverService.cs",
+              "ToolTip": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Domain\\Services\\ITotverService.cs",
+              "RelativeToolTip": "TotvsIntegra\\Domain\\Services\\ITotverService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T22:15:14.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TotverRepository.cs",
+              "DocumentMoniker": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Persistence\\Repositories\\TotverRepository.cs",
+              "RelativeDocumentMoniker": "TotvsIntegra\\Persistence\\Repositories\\TotverRepository.cs",
+              "ToolTip": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Persistence\\Repositories\\TotverRepository.cs",
+              "RelativeToolTip": "TotvsIntegra\\Persistence\\Repositories\\TotverRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T22:14:33.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TotverService.cs",
+              "DocumentMoniker": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Services\\TotverService.cs",
+              "RelativeDocumentMoniker": "TotvsIntegra\\Services\\TotverService.cs",
+              "ToolTip": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Services\\TotverService.cs",
+              "RelativeToolTip": "TotvsIntegra\\Services\\TotverService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T22:13:01.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TotversController.cs",
+              "DocumentMoniker": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Controllers\\TotversController.cs",
+              "RelativeDocumentMoniker": "TotvsIntegra\\Controllers\\TotversController.cs",
+              "ToolTip": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Controllers\\TotversController.cs",
+              "RelativeToolTip": "TotvsIntegra\\Controllers\\TotversController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwCgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T20:34:58.657Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
         {
           "DockedWidth": 235,
           "SelectedChildIndex": 1,
@@ -43,85 +121,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TotverService.cs",
-              "DocumentMoniker": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Services\\TotverService.cs",
-              "RelativeDocumentMoniker": "TotvsIntegra\\Services\\TotverService.cs",
-              "ToolTip": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Services\\TotverService.cs",
-              "RelativeToolTip": "TotvsIntegra\\Services\\TotverService.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAjwGQAAAAwAAAA",
+              "Title": "IAtividadeService.cs",
+              "DocumentMoniker": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Domain\\Services\\IAtividadeService.cs",
+              "RelativeDocumentMoniker": "TotvsIntegra\\Domain\\Services\\IAtividadeService.cs",
+              "ToolTip": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Domain\\Services\\IAtividadeService.cs",
+              "RelativeToolTip": "TotvsIntegra\\Domain\\Services\\IAtividadeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T00:39:28.467Z",
+              "WhenOpened": "2024-09-23T22:15:01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "OnboardingDto.cs",
+              "DocumentMoniker": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Dtos\\OnboardingDto.cs",
+              "RelativeDocumentMoniker": "TotvsIntegra\\Dtos\\OnboardingDto.cs",
+              "ToolTip": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Dtos\\OnboardingDto.cs",
+              "RelativeToolTip": "TotvsIntegra\\Dtos\\OnboardingDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T00:56:00.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OnboardingService.cs",
+              "DocumentMoniker": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Services\\OnboardingService.cs",
+              "RelativeDocumentMoniker": "TotvsIntegra\\Services\\OnboardingService.cs",
+              "ToolTip": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Services\\OnboardingService.cs",
+              "RelativeToolTip": "TotvsIntegra\\Services\\OnboardingService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAADgvxsAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T23:46:06.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OnboardingController.cs",
+              "DocumentMoniker": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Controllers\\OnboardingController.cs",
+              "RelativeDocumentMoniker": "TotvsIntegra\\Controllers\\OnboardingController.cs",
+              "ToolTip": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Controllers\\OnboardingController.cs",
+              "RelativeToolTip": "TotvsIntegra\\Controllers\\OnboardingController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T20:30:07.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AtividadesController.cs",
               "DocumentMoniker": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Controllers\\AtividadesController.cs",
               "RelativeDocumentMoniker": "TotvsIntegra\\Controllers\\AtividadesController.cs",
               "ToolTip": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Controllers\\AtividadesController.cs",
               "RelativeToolTip": "TotvsIntegra\\Controllers\\AtividadesController.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAArwFIAAAAIAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAWwCQAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T20:36:11.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Totver.cs",
-              "DocumentMoniker": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Domain\\Models\\Totver.cs",
-              "RelativeDocumentMoniker": "TotvsIntegra\\Domain\\Models\\Totver.cs",
-              "ToolTip": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Domain\\Models\\Totver.cs",
-              "RelativeToolTip": "TotvsIntegra\\Domain\\Models\\Totver.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T20:24:19.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TotverDto.cs",
-              "DocumentMoniker": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Dtos\\TotverDto.cs",
-              "RelativeDocumentMoniker": "TotvsIntegra\\Dtos\\TotverDto.cs",
-              "ToolTip": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Dtos\\TotverDto.cs",
-              "RelativeToolTip": "TotvsIntegra\\Dtos\\TotverDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T20:23:14.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TotversController.cs",
-              "DocumentMoniker": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Controllers\\TotversController.cs",
-              "RelativeDocumentMoniker": "TotvsIntegra\\Controllers\\TotversController.cs",
-              "ToolTip": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Controllers\\TotversController.cs",
-              "RelativeToolTip": "TotvsIntegra\\Controllers\\TotversController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAswEMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T20:34:58.657Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 235,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "AtividadeService.cs",
               "DocumentMoniker": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Services\\AtividadeService.cs",
               "RelativeDocumentMoniker": "TotvsIntegra\\Services\\AtividadeService.cs",
               "ToolTip": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Services\\AtividadeService.cs",
               "RelativeToolTip": "TotvsIntegra\\Services\\AtividadeService.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAASwDUAAAA6AAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAewHEAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T00:27:36.809Z",
+              "WhenOpened": "2024-08-19T19:53:23.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Onboarding.cs",
+              "DocumentMoniker": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Domain\\Models\\Onboarding.cs",
+              "RelativeDocumentMoniker": "TotvsIntegra\\Domain\\Models\\Onboarding.cs",
+              "ToolTip": "C:\\Users\\iasmi\\Documents\\Projects\\onboarding-api\\TotvsIntegra\\TotvsIntegra\\Domain\\Models\\Onboarding.cs",
+              "RelativeToolTip": "TotvsIntegra\\Domain\\Models\\Onboarding.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T00:56:32.873Z",
               "EditorCaption": ""
             }
           ]

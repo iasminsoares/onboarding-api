@@ -5,6 +5,7 @@ using IntegraApi.Application.Domain.Models;
 using IntegraApi.Application.Domain.Services;
 using IntegraApi.Application.Domain.Services.Comunication;
 using IntegraApi.Application.Dtos;
+using IntegraApi.Application.Services;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
@@ -23,11 +24,25 @@ namespace TotvsIntegra.Application.Controllers
         //    _atividadeService = AtividadeService;
         //}
 
+
+
+        /// <summary>
+        /// Lists all atividades.
+        /// </summary>
+        /// <returns>List of atividades.</returns>
+        [HttpGet]
+        [Route("GetOptions")]
+        public async Task<IActionResult> GetOptions()
+        {
+            var options = await AtividadeService.GetOptions();
+            return Ok(options);
+        }
+
         /// <summary>
         /// Lists all Atividade.
         /// </summary>
         /// <returns>List of Atividades.</returns>
-
+        /// 
         [HttpGet]
         [ProducesResponseType(typeof(IEnumerable<AtividadeDto>), 200)]
         public async Task<IEnumerable<AtividadeDto>> ListAsync()

@@ -3,7 +3,9 @@ using IntegraApi.Application.Domain.Models;
 using IntegraApi.Application.Domain.Repositories;
 using IntegraApi.Application.Domain.Services;
 using IntegraApi.Application.Domain.Services.Comunication;
+using IntegraApi.Application.Dtos;
 using IntegraApi.Application.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 
 namespace IntegraApi.Application.Services
@@ -107,6 +109,16 @@ namespace IntegraApi.Application.Services
                 logger.LogError("{message}", $"Não foi possivel encontrar o registro com o ID {id}. Erro: {ex.Message}");
                 return new Response<Atividade>(ErrorType.Error, "Um erro ocorreu tentando encontrar o registro.", ex.Message);
             }
+        }
+
+        public async Task<IEnumerable<AtividadeOptionsDto>> GetOptions()
+        {
+           var atividades = await repository.ListAsync();
+           return atividades.Select(a => new AtividadeOptionsDto
+           {
+               Value = a.Id,
+               Label = a.Descricao
+           }).ToList();
         }
 
         private void AtualizaPropriedadeAtividade(Atividade existingAtividade, Atividade atividadeModificada)

@@ -2,6 +2,7 @@
 using IntegraApi.Application.Domain.Repositories;
 using IntegraApi.Application.Domain.Services;
 using IntegraApi.Application.Domain.Services.Comunication;
+using IntegraApi.Application.Dtos;
 using IntegraApi.Application.Infrastructure;
 using Microsoft.Extensions.Caching.Memory;
 
@@ -23,6 +24,16 @@ namespace IntegraApi.Application.Services
             });
 
             return result ?? [];
+        }
+
+        public async Task<IEnumerable<AtividadeOptionsDto>> GetOptions()
+        {
+            var atividades = await repository.ListAsync();
+            return atividades.Select(a => new AtividadeOptionsDto
+            {
+                Value = a.Id,
+                Label = a.Nome
+            }).ToList();
         }
 
         public async Task<Response<Totver>> SaveAsync(Totver totver)

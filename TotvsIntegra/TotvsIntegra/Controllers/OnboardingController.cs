@@ -15,7 +15,9 @@ namespace TotvsIntegra.Application.Controllers
     [Route("[controller]")]
     public class OnboardingController(IOnboardingService OnboardingService, IMapper mapper) : BaseApiController
     {
-      
+
+        
+
         /// <summary>
         /// Lists all Onboarding.
         /// </summary>

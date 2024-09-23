@@ -4,11 +4,18 @@
         <name>IntegraApi.Application</name>
     </assembly>
     <members>
+        <member name="M:TotvsIntegra.Application.Controllers.AtividadesController.GetOptions">
+            <summary>
+            Lists all atividades.
+            </summary>
+            <returns>List of atividades.</returns>
+        </member>
         <member name="M:TotvsIntegra.Application.Controllers.AtividadesController.ListAsync">
             <summary>
             Lists all Atividade.
             </summary>
             <returns>List of Atividades.</returns>
+            
         </member>
         <member name="M:TotvsIntegra.Application.Controllers.AtividadesController.PostAsync(IntegraApi.Application.Dtos.AtividadeDto)">
             <summary>
@@ -94,6 +101,12 @@
             Lists all Totver.
             </summary>
             <returns>List of Totvers.</returns>
+        </member>
+        <member name="M:IntegraApi.Application.Controllers.TotversController.GetOptions">
+            <summary>
+            Lists all totvers.
+            </summary>
+            <returns>List of atividades.</returns>
         </member>
         <member name="M:IntegraApi.Application.Controllers.TotversController.PostAsync(IntegraApi.Application.Dtos.TotverDto)">
             <summary>

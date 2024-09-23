@@ -3,6 +3,7 @@ using IntegraApi.Application.Domain.Models;
 using IntegraApi.Application.Domain.Services;
 using IntegraApi.Application.Domain.Services.Comunication;
 using IntegraApi.Application.Dtos;
+using IntegraApi.Application.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
@@ -20,6 +21,18 @@ namespace IntegraApi.Application.Controllers
         {
             var result = await TotverService.ListAsync();
             return mapper.Map<IEnumerable<TotverDto>>(result);
+        }
+
+        /// <summary>
+        /// Lists all totvers.
+        /// </summary>
+        /// <returns>List of atividades.</returns>
+        [HttpGet]
+        [Route("GetOptions")]
+        public async Task<IActionResult> GetOptions()
+        {
+            var options = await TotverService.GetOptions();
+            return Ok(options);
         }
 
         /// <summary>
